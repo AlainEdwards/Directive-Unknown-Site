@@ -1,0 +1,180 @@
+/* Main CSS */
+
+/* Main Site */
+
+body {
+margin:0;
+padding:0;
+position: relative;
+min-height: 100%;
+top: 0px;
+background-image:url('../images/BG.png');
+}
+
+/* Header Elements */
+header{
+margin:auto;
+width:70%;
+}
+
+h1{
+color:#d3d3d3;
+}
+#top{
+background:#FFFFFF;
+height:180px;
+}
+#tlogo{
+text-align:center;
+position:relative;
+background-position: 0px 0px;
+background-color:#FFFFFF;
+}
+#tnav{
+background-color:#d3d3d3;
+}
+#tnavleft{
+margin:left;
+}
+#tnavright{
+margin:right;
+}
+header.row.span1{
+padding-right:5px;
+}
+
+/*--------------------------------------*/
+
+/* Container Elements */
+.container{
+width:70%; 
+background-color:#FFFFFF;
+}
+#main {
+
+}
+#mbottom{
+	width:100%;
+	background-color:#FFFFFF;
+}
+.col-md-7, .col-md-5{
+	margin-left:50px;
+}
+.col-md-7{
+	/*text-align:center;*/
+	width:70%;
+	text-align:left;
+}
+.col-md-5{
+	/*margin-left:41%;*/
+	/*margin-right:auto;*/
+	width:20%;
+	float:right;
+	padding-right:20px;
+}
+.lead{
+	font-size:16px;
+}
+#contact{
+	width:80%;
+	margin:auto;
+	vertical-align:baseline;
+}
+#confirmation{
+	vertical-align:central;
+	margin:auto;
+	width:50%;
+	height:250px;
+	text-align:center;
+}
+#confirmation h2{
+	color:green;
+}
+#login{
+	vertical-align:central;
+	margin:auto;
+	width:30%;
+	height:350px;
+	
+}
+#register{
+	width:80%;
+	margin:auto;
+	vertical-align:baseline;
+}
+#about{
+	margin:auto;
+	width:80%;
+}
+#rabout{
+	width:66%;
+	float:left;
+}
+#specialize{
+	width:33%;
+	float:left;
+}
+/*--------------------------------------*/
+
+/* Footer Elements */
+
+footer {
+background-color:#d3d3d3;
+background-image:url('../images/footer.png');
+background-repeat:repeat;
+overflow:hidden;
+}
+#bottom{
+color:#d3d3d3;
+margin:auto;
+width:70%;
+}
+#fw1, #fw2, #fw3, #fw4, #fw5 {
+width:19%;
+float: left;
+margin-right: 1px;
+margin-left: 1px;
+
+}
+#fw1{
+}
+#fw2{
+
+}
+#fw3{
+
+}
+#fcopyright{
+clear:both;
+text-align:center;
+}
+/*--------------------------------------*/
+
+/* Slider */
+#slider{
+margin:auto;
+height:375px;
+width:1000px;
+}
+/* For Float Items */
+.clearfix:after {
+   content: " "; 
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+/* Was going to make my own but, bootstrap...
+blockquote {
+	margin: 1em 20px;
+	padding-left: 50px;
+	background: transparent url(../images/quote.png) no-repeat;
+} */
+/*--------------------------------------*/
+/* Sidebar */
+
+nav{
+width:25%;
+}
+
+/*Mobile Site*/
